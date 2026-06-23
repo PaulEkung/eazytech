@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eazytech Enterprise</title>
+     <link href="node_modules/images/weblogo.png" class="w-100" rel="icon">
+  <link href="node_modules/images/weblogo.png" rel="apple-touch-icon">
+  
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
+<link rel="stylesheet" href="style.css">
+
+   </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 sticky-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4 track-wide" href="#home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="text-primary bi bi-cpu" viewBox="0 0 16 16">
+                <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3z"/>
+                <path d="M5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 6.5"/>
+            </svg>
+            
+            <span class="text-light">Eazy<span class="text-primary">tech</span></span>
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#eazytechNavbar" aria-controls="eazytechNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="eazytechNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-2">
+                
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white opacity-75" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark shadow border-secondary custom-dropdown" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-menu-item text-white opacity-75 dropdown-item py-2" href="#services">Autonomous AI Agents Development</a></li>
+                        <li><a class="dropdown-menu-item text-white opacity-75 dropdown-item py-2" href="#services">Predictive Models & Business Analytics</a></li>
+                        <li><a class="dropdown-menu-item text-white opacity-75 dropdown-item py-2" href="#services">Full-Stack Web Architectures</a></li>
+                        <li><a class="dropdown-menu-item text-white opacity-75 dropdown-item py-2" href="#services">Cloud Infrastructure & DevOps Migration</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown text-white opacity-75">
+                    <a class="nav-link dropdown-toggle" href="#" id="showcaseDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Our Products
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark shadow border-secondary custom-dropdown" aria-labelledby="showcaseDropdown">
+                        <li>
+                            <a class="dropdown-item py-2 d-flex flex-column" href="https://projectfinale.net" target="_blank">
+                                <span class="fw-bold text-light">ProjectFinale</span>
+                                <small class="text-muted" style="font-size: 0.75rem;">Academic operations and research management environment.</small>
+                            </a>
+                        </li>
+                        <li><hr class="dropdown-divider border-secondary"></li>
+                        <li>
+                            <a class="dropdown-item py-2 d-flex flex-column" href="#product-agentx">
+                                <span class="fw-bold text-light">EazyAgent ERP</span>
+                                <small class="text-muted" style="font-size: 0.75rem;">Automated business analytics forecasting and operations bot framework.</small>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white opacity-75" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white opacity-75" href="#contact">Contact</a>
+                </li>
+
+                <li class="nav-item ms-lg-2">
+                    <a class="btn btn-primary text-white font-weight-bold px-4 rounded-pill shadow-sm bi bi-whatsapp" href="https://wa.me/2349067476828?text=Hello%20Eazytech,%20I%20have%20a%20project%20idea%20and%20need%20your%20services." target="_blank"> 
+                        Talk to an Expert</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section id="home" class="overflow-hidden bg-dark text-white d-flex align-items-center" style="min-height: 75vh; background: linear-gradient(135deg, #15191e 0%, #0b0c10 100%);">
+    <div class="container py-4">
+        <div class="row align-items-center g-5">
+            
+            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                <div class="mb-3 d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-secondary bg-opacity-25 border border-secondary">
+                    <span class="spinner-grow spinner-grow-sm text-primary" role="status" aria-hidden="true"></span>
+                    <small class="text-primary fw-bold tracking-wide text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">Next-Gen Software Agency</small>
+                </div>
+                
+                <h1 class="display-4 fw-black mb-3 lh-sm">
+                    Engineering Intelligent <span class="text-primary">Software</span>
+                    for Enterprise Growth
+                </h1>
+
+                <p class="lead text-muted mb-3 fs-5" style="max-width: 520px;">
+                    We architect autonomous AI agents, predictive analytics, and scalable full-stack systems.
+                </p>
+                
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="#contact" class="btn btn-primary text-white fw-bold px-4 py-2 rounded-pill shadow shadow-sm d-inline-flex align-items-center gap-2">
+                        <span>Start Your Project</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                    <a href="#showcase" class="btn btn-outline-light fw-bold px-4 py-2 rounded-pill d-inline-flex align-items-center gap-2">
+                        <span>View Products</span>
+                        <i class="bi bi-cpu"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                <div class="position-relative d-flex justify-content-center align-items-center">
+                    
+                    <div class="position-absolute rounded-circle bg-primary bg-opacity-10 blur-effect" style="width: 400px; height: 400px; filter: blur(80px); z-index: 1;"></div>
+                    
+                    <div class="card bg-secondary bg-opacity-15 border border-secondary border-opacity-20 rounded-4 p-4 shadow-lg w-100 position-relative animate-float" style="z-index: 2; backdrop-filter: blur(10px); max-width: 500px;">
+                        <div class="d-flex align-items-center justify-content-between mb-4 border-b border-secondary border-opacity-25 pb-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="badge bg-danger rounded-circle p-1">&nbsp;</span>
+                                <span class="badge bg-warning rounded-circle p-1">&nbsp;</span>
+                                <span class="badge bg-success rounded-circle p-1">&nbsp;</span>
+                            </div>
+                            <small class="text-muted font-monospace" style="font-size: 0.75rem;">eazytech_agent_core.py</small>
+                        </div>
+                        
+                        <div class="font-monospace small mb-3 text-success d-flex align-items-center gap-2">
+                            <i class="bi bi-terminal-fill"></i>
+                            <span>Initializing autonomous business environment...</span>
+                        </div>
+                        
+                        <div class="p-3 bg-dark bg-opacity-50 border border-secondary border-opacity-25 rounded-3 mb-3">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="text-muted extra-small">PREDICTIVE FORECASTING MODEL</span>
+                                <span class="text-primary fw-bold extra-small">+34.8% Efficiency</span>
+                            </div>
+                            <div class="progress" style="height: 6px; background-color: #212529;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <div class="p-3 bg-dark bg-opacity-20 border border-secondary border-opacity-25 rounded-3 text-center">
+                                    <i class="bi bi-robot fs-3 text-primary mb-1 d-block"></i>
+                                    <span class="fw-bold text-light d-block small">AI Engine</span>
+                                    <small class="text-muted extra-small">Active Agents</small>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="p-3 bg-dark bg-opacity-20 border border-secondary border-opacity-25 rounded-3 text-center">
+                                    <i class="bi bi-graph-up-arrow fs-3 text-info mb-1 d-block"></i>
+                                    <span class="fw-bold text-light d-block small">Analytics</span>
+                                    <small class="text-muted extra-small">Real-time Models</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="services" class="py-5 bg-light-subtle text-dark" style="background-color: #f8f9fa;">
+    <div class="container py-5" id="services">
+        
+        <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <h6 class="text-primary fw-bold text-uppercase font-monospace tracking-wide mb-2" style="letter-spacing: 2px;">What We Do</h6>
+            <h2 class="display-5 fw-bold text-black mb-3">Enterprise-Grade Technical Capabilities</h2>
+            <p class="text-muted mx-auto fs-5" style="max-width: 600px;">
+                We build resilient digital infrastructure, automated workflows, and data-driven systems designed to push business operations forward.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <div class="card h-100 border-0 shadow-sm rounded-4 p-4 card-hover-effect">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary bg-opacity-10 text-primary rounded-3 p-3 mb-4 style-icon-box" id="services-ai">
+                        <i class="bi bi-robot fs-3"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3 fs-5 text-black">Autonomous AI Agents</h4>
+                    <p class="text-muted small mb-0">
+                        Designing and deploying custom intelligent agents that automate complex business execution workflows, handle system operations, and interact seamlessly with legacy internal APIs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="card h-100 border-0 shadow-sm rounded-4 p-4 card-hover-effect">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-info bg-opacity-10 text-info rounded-3 p-3 mb-4 style-icon-box" id="services-predictive">
+                        <i class="bi bi-graph-up-arrow fs-3"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3 fs-5 text-black">Predictive Data Modeling</h4>
+                    <p class="text-muted small mb-0">
+                        Building advanced machine learning architectures that analyze historical business datasets to forecast market trends, map user behavior, and unlock scaling vectors.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <div class="card h-100 border-0 shadow-sm rounded-4 p-4 card-hover-effect">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-dark bg-opacity-10 text-dark rounded-3 p-3 mb-4 style-icon-box" id="services-web">
+                        <i class="bi bi-code-slash fs-3"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3 fs-5 text-black">Full-Stack Architectures</h4>
+                    <p class="text-muted small mb-0">
+                        Engineering ultra-secure, clean, scalable web systems. From fast user-facing client interfaces to robust relational databases and data synchronization structures.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <div class="card h-100 border-0 shadow-sm rounded-4 p-4 card-hover-effect">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-success bg-opacity-10 text-success rounded-3 p-3 mb-4 style-icon-box" id="services-cloud">
+                        <i class="bi bi-cloud-check fs-3"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3 fs-5 text-black">Cloud Infrastructure</h4>
+                    <p class="text-muted small mb-0">
+                        Architecting high-availability cloud setups, automated CI/CD pipeline structures, secure environment containers, and cost-optimized asset hosting models.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <section class="py-5 aos-all  projects-pro" data-aos="fade-up" id="featured-projects">
+    <div class="container py-4">
+        <div class="text-center mb-5">
+            <span class="text-primary fw-bold text-uppercase tracking-wider small d-block mb-2">Production-Ready Software</span>
+            <h2 class="fw-bold fs-1 text-dark position-relative d-inline-block pb-3">
+                Our Showcase Projects
+                <span class="position-absolute bottom-0 start-50 translate-middle-x bg-primary rounded" style="width: 50px; height: 3px;"></span>
+            </h2>
+            <p class="text-muted col-md-8 mx-auto mt-3">
+                Explore our catalog of custom-built software solutions engineered for scalability, robust performance, and exceptional user experiences.
+            </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-wrapper bg-primary bg-opacity-10 text-primary rounded-4 mx-auto mb-4">
+                        <i class="bi bi-cart4 fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold text-dark mb-3">E-Commerce Systems</h5>
+                    <p class="text-muted small mb-0">
+                        Advanced storefronts featuring dynamic product catalogs, secure checkout pipelines, inventory trackers, and intuitive vendor dashboards.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-wrapper bg-success bg-opacity-10 text-success rounded-4 mx-auto mb-4">
+                        <i class="bi bi-mortarboard fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold text-dark mb-3">Admission Portals</h5>
+                    <p class="text-muted small mb-0">
+                        Automated applicant processing portals configured with form wizard validation, payment confirmation channels, and document repositories.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-wrapper bg-warning bg-opacity-10 text-warning rounded-4 mx-auto mb-4">
+                        <i class="bi bi-laptop fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold text-dark mb-3">E-Learning Systems</h5>
+                    <p class="text-muted small mb-0">
+                        Interactive classrooms supporting multimedia module delivery, structured grading matrices, student profiling, and automatic progress metrics.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-wrapper bg-danger bg-opacity-10 text-danger rounded-4 mx-auto mb-4">
+                        <i class="bi bi-boxes fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold text-dark mb-3">Inventory Managers</h5>
+                    <p class="text-muted small mb-0">
+                        Real-time business stock engines equipped with asset audit reporting, low-stock threshold triggers, and comprehensive log histories.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="icon-wrapper bg-primary bg-opacity-10 text-primary rounded-4 mx-auto mb-4">
+            <i class="bi bi-calendar2-check fs-3"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-3">Hotel Bookings</h5>
+        <p class="text-muted small mb-0">
+            Dynamic hospitality management engines featuring interactive room availability matrices, pricing tiers, and automated booking receipts.
+        </p>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-wrapper bg-danger bg-opacity-10 text-danger rounded-4 mx-auto mb-4">
+            <i class="bi bi-hospital fs-3"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-3">Hospital Systems</h5>
+        <p class="text-muted small mb-0">
+            Secure healthcare workflows providing electronic health records (EHR), medical staff scheduling modules, and patient appointment tracking.
+        </p>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="icon-wrapper bg-info bg-opacity-10 text-info rounded-4 mx-auto mb-4">
+            <i class="bi bi-person-check-fill fs-3"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-3">Staff Appraisals</h5>
+        <p class="text-muted small mb-0">
+            Corporate HR suites equipped with custom performance metrics evaluation dashboards, milestone trackers, and peer review logging systems.
+        </p>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="400">
+        <div class="icon-wrapper bg-violet bg-opacity-10 text-violet rounded-4 mx-auto mb-4">
+            <i class="bi bi-robot fs-3 text-light"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-3">Agentic AI Bots</h5>
+        <p class="text-muted small mb-0">
+            Intelligent customer support agents leveraging LLMs and RAG architecture to parse company knowledge bases and answer inquiries instantly.
+        </p>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="icon-wrapper bg-success bg-opacity-10 text-success rounded-4 mx-auto mb-4">
+            <i class="bi bi-building-gear fs-3"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-3">Property Portals</h5>
+        <p class="text-muted small mb-0">
+            Geospatial real estate applications built with structured location filtering, virtual property tour links, and direct agent connection pipelines.
+        </p>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-wrapper bg-warning bg-opacity-10 text-warning rounded-4 mx-auto mb-4">
+            <i class="bi bi-currency-bitcoin fs-3"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-3">Fintech Web3 Hubs</h5>
+        <p class="text-muted small mb-0">
+            Modern financial tracking hubs designed for monitoring multi-currency wallets, processing blockchain ledger histories, and charting real-time assets.
+        </p>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="icon-wrapper bg-dark bg-opacity-10 text-dark rounded-4 mx-auto mb-4">
+            <i class="bi bi-truck fs-3"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-3">Logistics Managers</h5>
+        <p class="text-muted small mb-0">
+            Fleet tracking systems built for delivery status routing optimization, driver profile updates, and milestone tracking pipelines.
+        </p>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+    <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center project-card" data-aos="zoom-in" data-aos-delay="400">
+        <div class="icon-wrapper bg-secondary bg-opacity-10 text-secondary rounded-4 mx-auto mb-4">
+            <i class="bi bi-receipt-cutoff fs-3"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-3">SaaS Billing Engines</h5>
+        <p class="text-muted small mb-0">
+            Automated billing platforms supporting recurring multi-tier subscription models, custom PDF invoice generators, and webhook payout triggers.
+        </p>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="showcase" class="py-5 bg-dark text-white" style="background-color: #0b0c10;">
+    <div class="container py-5">
+        
+        <div class="row mb-5" data-aos="fade-up" data-aos-duration="500">
+            <div class="col-lg-6">
+                <h6 class="text-primary fw-bold text-uppercase font-monospace tracking-wide mb-2" style="letter-spacing: 2px;">Our Portfolio</h6>
+                <h2 class="display-5 fw-bold text-light">Proprietary Products & Systems Buildouts</h2>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center">
+                <p class="text-muted fs-5 mb-0">
+                    A collection of scalable software architectures, operational platforms, and live intelligence applications engineered by our agency.
+                </p>
+            </div>
+        </div>
+
+        <div class="row align-items-center g-5 mb-5 pt-4">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="500">
+                <div class="position-relative p-4 bg-secondary bg-opacity-10 border border-secondary border-opacity-25 rounded-4 shadow-lg overflow-hidden">
+                    <div class="d-flex align-items-center gap-2 mb-3 border-bottom border-secondary border-opacity-25 pb-2">
+                        <span class="badge bg-secondary bg-opacity-20 rounded-circle p-1" style="width:10px; height:10px;">&nbsp;</span>
+                        <span class="badge bg-secondary bg-opacity-20 rounded-circle p-1" style="width:10px; height:10px;">&nbsp;</span>
+                        <span class="badge bg-secondary bg-opacity-20 rounded-circle p-1" style="width:10px; height:10px;">&nbsp;</span>
+                        <span class="text-muted font-monospace ms-2" style="font-size: 0.75rem;">projectfinale.net</span>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center py-5 bg-black bg-opacity-40 rounded-3 border border-secondary border-opacity-10">
+                        <i class="bi bi-mortarboard text-primary mb-3" style="font-size: 4.5rem;"></i>
+                        <span class="text-muted font-monospace small">Hign Earned Automation / Admin Workflow Live</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="500">
+                <div class="ps-lg-4">
+                    <span class="badge bg-primary text-white mb-3 px-3 py-2 rounded-pill font-monospace text-uppercase" style="font-size:0.75rem;">Academic Tech (SaaS)</span>
+                    <h3 class="display-6 fw-bold text-light mb-3">ProjectFinale</h3>
+                    <p class="text-muted mb-4">
+                        An advanced all-in-one operations management and digital workspace solution designed specifically for graduating university students. This system automates research project assignment queues, manages document repositories, and handles instantaneous transaction processing via Paystack gateway split-payment protocols.
+                    </p>
+                    <ul class="list-unstyled text-muted mb-4 d-flex flex-column gap-2 font-monospace small">
+                        <li class="d-flex align-items-center gap-2">
+                            <i class="bi bi-patch-check text-primary"></i> <span>Automated Student/Researcher Matching Engine</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <i class="bi bi-patch-check text-primary"></i> <span>Secure Digital Asset Download Cryptography</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <i class="bi bi-patch-check text-primary"></i> <span>Real-time Background Async Operation Polling</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:0.85rem;">Request Core Blueprint</a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="border-secondary border-opacity-25 my-5">
+
+        <div class="row align-items-center g-5 flex-row-reverse pt-4">
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="500">
+                <div class="position-relative p-4 bg-secondary bg-opacity-10 border border-secondary border-opacity-25 rounded-4 shadow-lg overflow-hidden">
+                    <div class="d-flex align-items-center gap-2 mb-3 border-bottom border-secondary border-opacity-25 pb-2">
+                        <span class="badge bg-secondary bg-opacity-20 rounded-circle p-1" style="width:10px; height:10px;">&nbsp;</span>
+                        <span class="badge bg-secondary bg-opacity-20 rounded-circle p-1" style="width:10px; height:10px;">&nbsp;</span>
+                        <span class="badge bg-secondary bg-opacity-20 rounded-circle p-1" style="width:10px; height:10px;">&nbsp;</span>
+                        <span class="text-muted font-monospace ms-2" style="font-size: 0.75rem;">eazy_agent_core/</span>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center py-5 bg-black bg-opacity-40 rounded-3 border border-secondary border-opacity-10">
+                        <i class="bi bi-cpu text-info mb-3" style="font-size: 4.5rem;"></i>
+                        <span class="text-muted font-monospace small">Predictive Neural Vector Processing</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="500">
+                <div class="pe-lg-4">
+                    <span class="badge bg-info text-dark mb-3 px-3 py-2 rounded-pill font-monospace text-uppercase" style="font-size:0.75rem;">Artificial Intelligence</span>
+                    <h3 class="display-6 fw-bold text-light mb-3">EazyAgent ERP</h3>
+                    <p class="text-muted mb-4">
+                        A state-of-the-art multi-agent business automation stack. EazyAgent uses predictive modeling algorithms to parse corporate enterprise datasets, running high-accuracy predictive growth metrics alongside automated bots that execute back-office logistical work autonomously.
+                    </p>
+                    <ul class="list-unstyled text-muted mb-4 d-flex flex-column gap-2 font-monospace small">
+                        <li class="d-flex align-items-center gap-2">
+                            <i class="bi bi-patch-check text-info"></i> <span>Generative Business Intelligence Reporting</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <i class="bi bi-patch-check text-info"></i> <span>Autonomous System-to-API Communication Layers</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <i class="bi bi-patch-check text-info"></i> <span>Predictive Churn & Operational Growth Modeling</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline-info rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:0.85rem;">Get Tech Stack</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="about" class="py-5 bg-light-subtle text-dark" style="background-color: #f8f9fa;">
+    <div class="container py-5">
+        <div class="row align-items-center g-5">
+            
+            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="500">
+                <h6 class="text-primary fw-bold text-uppercase font-monospace tracking-wide mb-2" style="letter-spacing: 2px;">Why Eazytech</h6>
+                <h2 class="display-5 fw-bold text-black mb-4">Driving Business Velocity via Intelligent Systems</h2>
+                <p class="text-muted mb-4">
+                    At Eazytech, we don't just write code; we design computational leverage. We sit at the intersection of robust backend software architecture and cutting-edge data science. 
+                </p>
+                <p class="text-muted mb-4">
+                    Whether we are building highly secure educational management hubs like <strong>ProjectFinale</strong> or developing tailored predictive engines to optimize supply chains, our goal is clear: turning complex manual operations into high-margin automated assets.
+                </p>
+                
+                <div class="row g-3 pt-2">
+                    <div class="col-sm-6 d-flex align-items-center gap-2">
+                        <i class="bi bi-shield-check text-primary fs-4"></i>
+                        <span class="fw-semibold text-black-50 small">Production-Grade Security</span>
+                    </div>
+                    <div class="col-sm-6 d-flex align-items-center gap-2">
+                        <i class="bi bi-lightning-charge text-primary fs-4"></i>
+                        <span class="fw-semibold text-black-50 small">Highly Optimized Speed</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                <div class="row g-4">
+                    
+                    <div class="col-6">
+                        <div class="p-4 bg-white rounded-4 shadow-sm border-0 text-center stat-card">
+                            <h3 class="display-5 fw-bold text-primary mb-1">99%</h3>
+                            <span class="fw-bold text-dark d-block small">System Uptime</span>
+                            <small class="text-muted font-monospace extra-small">Reliable Deployments</small>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="p-4 bg-white rounded-4 shadow-sm border-0 text-center stat-card">
+                            <h3 class="display-5 fw-bold text-info mb-1">3+</h3>
+                            <span class="fw-bold text-dark d-block small">Live Platforms</span>
+                            <small class="text-muted font-monospace extra-small">Production Software</small>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="p-4 bg-white rounded-4 shadow-sm border-0 text-center stat-card">
+                            <h3 class="display-5 fw-bold text-success mb-1">45%</h3>
+                            <span class="fw-bold text-dark d-block small">Efficiency Gains</span>
+                            <small class="text-muted font-monospace extra-small">Via Autonomous Agents</small>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="p-4 bg-white rounded-4 shadow-sm border-0 text-center stat-card">
+                            <h3 class="display-5 fw-bold text-dark mb-1">24/7</h3>
+                            <span class="fw-bold text-dark d-block small">Async Async Polling</span>
+                            <small class="text-muted font-monospace extra-small">Real-Time Sync Engines</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="py-5 bg-dark text-white" style="background: linear-gradient(135deg, #0b0c10 0%, #15191e 100%);">
+    <div class="container py-5">
+        <div class="row g-5">
+            
+            <div class="col-lg-5" data-aos="fade-right" data-aos-duration="500">
+                <h6 class="text-primary fw-bold text-uppercase font-monospace tracking-wide mb-2" style="letter-spacing: 2px;">Connect With Us</h6>
+                <h2 class="display-6 fw-bold text-light mb-4">Let's Build Something Exceptional</h2>
+                <p class="text-muted mb-4">
+                    Have an idea for a platform, need an AI system integrated, or looking to deploy modern full-stack business tools? Drop your specs here. Our engineering unit will review your project requirements within 24 hours.
+                </p>
+                
+                <div class="d-flex flex-column gap-3 pt-2">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="bg-secondary bg-opacity-25 p-3 rounded-circle text-white border border-secondary border-opacity-25 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <div>
+                            <small class="text-muted d-block">Inquiries & Proposals</small>
+                            <span class="fw-bold text-light">eazytechenterprice@outlook.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7" data-aos="fade-left" data-aos-duration="500" data-aos-delay="200">
+                <div class="card bg-secondary bg-opacity-10 border border-secondary border-opacity-25 p-4 p-md-5 rounded-4 shadow-lg" style="backdrop-filter: blur(10px);">
+                    <form id="eazytech-contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <div class="row g-3">
+                            
+    <div class="col-md-6">
+        <input type="hidden" name="access_key" value="92ad3733-6ffe-4036-b735-bf6badcbec6f">
+    <label class="form-label text-muted small font-monospace">YOUR NAME</label>
+    <input type="text" class="form-control bg-dark border-secondary border-opacity-50 rounded-3 p-3 text-field-focus" name="name" placeholder="John Doe" required autocomplete="off">
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <label class="form-label text-muted small font-monospace">EMAIL ADDRESS</label>
+                                <input type="email" class="form-control bg-dark border-secondary border-opacity-50 rounded-3 p-3 text-field-focus" name="email" placeholder="john@company.com" required autocomplete="off">
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label text-muted small font-monospace">PROJECT DOMAIN INTEREST</label>
+                                <select class="form-select bg-dark border-secondary border-opacity-50 text-muted rounded-3 p-3 text-field-focus" name="domain" required>
+                                    <option value="" selected disabled>Select a capability branch...</option>
+                                    <option value="ai">Autonomous AI Agents / Bots</option>
+                                    <option value="predictive">Predictive Analytics & ML Models</option>
+                                    <option value="web">Full-Stack Platform Engineering (SaaS)</option>
+                                    <option value="cloud">Cloud Architecture & Migration</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label text-muted small font-monospace">PROJECT DETAILS / SCOPE</label>
+                                <textarea class="form-control bg-dark border-secondary border-opacity-50 rounded-3 p-3 text-field-focus" name="details" rows="4" placeholder="Describe what system functionality or problem parameters you are looking to address..." required></textarea>
+                            </div>
+
+                            <div class="col-12 pt-2">
+                                <button type="submit" class="btn btn-primary text-white fw-bold w-100 py-3 rounded-pill shadow-sm transition-all d-flex align-items-center justify-content-center gap-2">
+                                    <span>Send Project Proposal</span>
+                                    <i class="bi bi-send"></i>
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<div class="chat-wrapper" style="position: fixed; bottom: 25px; left: 25px; z-index: 9999;">
+    
+    <div id="chat-box" class="shadow-lg border-0 rounded-3 d-none mb-3" style="width: 320px; background: white; overflow: hidden;">
+        <div class="p-3 bg-dark text-white d-flex justify-content-between align-items-center">
+            <h6 class="mb-0 fw-bold"><i class="bi bi-robot me-2"></i>Eazy Assistant</h6>
+            <button type="button" class="btn-close btn-close-white" id="close-chat"></button>
+        </div>
+        
+        <div id="chat-content" class="p-3 bg-light" style="height: 350px; overflow-y: auto;">
+            
+            <div id="main-menu">
+                <p class="small text-muted mb-3">Hi there! How can we help you today?</p>
+                <a href="https://projectfinale.net" class="btn btn-outline-dark w-100 mb-2 text-start shadow-sm py-2">
+                    <i class="bi bi-globe2 me-2"></i> Take me to <b>ProjectFinale</b> 
+                </a>
+                <button class="btn btn-outline-dark w-100 mb-2 text-start shadow-sm py-2" onclick="showSection('website-info')">
+                    <i class="bi bi-cash-coin me-2"></i> What is the Cost?
+                </button>
+                <button class="btn btn-outline-dark w-100 mb-2 text-start shadow-sm py-2" onclick="showSection('payment-info')">
+                    <i class="bi bi-bank me-2"></i> How Quick is Your Delivery?
+                </button>
+                <button class="btn btn-outline-dark w-100 mb-2 text-start shadow-sm py-2" onclick="showSection('contact-options')">
+                    <i class="bi bi-person-badge me-2"></i> Talk to a Human
+                </button>
+            </div>
+
+            <div id="website-info" class="d-none animate-in">
+                <button class="btn btn-sm btn-link p-0 mb-2 text-decoration-none" onclick="showSection('main-menu')">
+                    <i class="bi bi-arrow-left"></i> Back
+                </button>
+                <div class="card border-0 shadow-sm">
+                   
+                    <div class="card-body p-2 text-center">
+                        <p>
+
+                            <strong>
+                                We build and deploy with a focus on improving and growing your business!
+                            </strong>
+                            <br>
+                            <br>
+                            In that case, Eazytech is committed to provide high quality software solutions at relatively affordable prices. 
+                            <br>
+                            From a basic business presence, to a standard and even more complex systems integrated with high performance AI models to help drive your business, Eazytech gives you the best of product experience, with very affordable cost.  
+    
+                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="payment-info" class="d-none animate-in">
+                <button class="btn btn-sm btn-link p-0 mb-2 text-decoration-none" onclick="showSection('main-menu')">
+                    <i class="bi bi-arrow-left"></i> Back
+                </button>
+                <div class="card border-0 shadow-sm">
+                   
+                    <div class="card-body p-2 text-center">
+                       <p class="card-text small text-muted p-3">
+                       
+                        Timely deivery and deployment of high quality services is our first priority! 
+                        <br>
+                        While project requirements may defer from basic to complex, our team of experts are committed to meet up with your specific deadlines for delivery, while maintaining a high product quality standard
+                        
+                    </p>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact-options" class="d-none animate-in">
+                <button class="btn btn-sm btn-link p-0 mb-2 text-decoration-none" onclick="showSection('main-menu')">
+                    <i class="bi bi-arrow-left"></i> Back
+                </button>
+                <div class="d-grid gap-2">
+                    <a href="https://wa.me/2349067476828?text=Hello%20Eazytech,%20I%20have%20a%20project%20proposal%20and%20need%20your%20services." target="_blank" class="btn btn-success shadow-sm">
+                        <i class="bi bi-whatsapp me-2"></i> Chat on WhatsApp
+                    </a>
+                    <button class="btn btn-dark shadow-sm" onclick="showSection('text-chat')">
+                        <i class="bi bi-chat-text me-2"></i> Send a Message
+                    </button>
+                </div>
+            </div>
+
+            <div id="text-chat" class="d-none animate-in">
+                <button class="btn btn-sm btn-link p-0 mb-2 text-decoration-none" onclick="showSection('contact-options')">
+                    <i class="bi bi-arrow-left"></i> Back
+                </button>
+                <form id="eazytech-contact-form2" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="92ad3733-6ffe-4036-b735-bf6badcbec6f">
+                <div class="bg-white p-2 rounded border shadow-sm">
+                    <input type="email" name="email" id="enquiry-email" class="form-control mb-2" placeholder="Your Email">
+                    <textarea id="guest-msg" class="form-control border-0 shadow-none small" name="message" rows="3" placeholder="Type your message..."></textarea>
+                    <button class="btn btn-dark btn-sm rounded-pill py-2 w-100 mt-2" id="send-guest-msg">Send Inquiry</button>
+
+                </div>
+                </form>
+            </div>
+
+        </div>
+        
+      
+    </div>
+    <button id="chat-icon" class="btn btn-dark rounded-circle shadow-lg d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+            <i class="bi bi-question-circle-fill fs-3"></i>
+        </button>
+</div>
+
+
+
+<footer class="bg-black text-muted py-5 border-top border-secondary border-opacity-15">
+    <div class="container py-3">
+        <div class="row g-4">
+            
+            <div class="col-lg-4 col-md-6">
+                <a class="d-flex align-items-center gap-2 fw-bold fs-4 text-white text-decoration-none mb-3" href="#home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="text-primary bi bi-cpu" viewBox="0 0 16 16">
+                        <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 2 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3z"/>
+                        <path d="M5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 6.5"/>
+                    </svg>
+                    <span>Eazy<span class="text-primary">tech</span></span>
+                </a>
+                <p class="small text-white opacity-75" style="max-width: 300px; line-height: 1.6;">
+                    Architecting high-performance digital systems, custom AI integrations, and optimization engines designed to accelerate operational scale.
+                </p>
+            </div>
+
+            <div class="col-lg-2 col-md-6">
+                <h6 class="text-white fw-bold font-monospace small text-uppercase tracking-wider mb-3" style="letter-spacing: 1px;">Capabilities</h6>
+                <ul class="list-unstyled d-flex flex-column gap-2 small">
+                    <li><a href="#services" class="text-white opacity-75 text-decoration-none footer-link">AI Agents</a></li>
+                    <li><a href="#services" class="text-white opacity-75 text-decoration-none footer-link">Predictive Modeling</a></li>
+                    <li><a href="#services" class="text-white opacity-75 text-decoration-none footer-link">Web Engineering</a></li>
+                    <li><a href="#services" class="text-white opacity-75 text-decoration-none footer-link">Cloud Infrastructure</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h6 class="text-white fw-bold font-monospace small text-uppercase tracking-wider mb-3" style="letter-spacing: 1px;">Our Products</h6>
+                <ul class="list-unstyled d-flex flex-column gap-2 small">
+                    <li><a href="https://projectfinale.net" class="text-white opacity-75 text-decoration-none footer-link">ProjectFinale</a></li>
+                    <li><a href="#showcase" class="text-white opacity-75 text-decoration-none footer-link">EazyAgent ERP Stack</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h6 class="text-white fw-bold font-monospace small text-uppercase tracking-wider mb-3" style="letter-spacing: 1px;">Studio</h6>
+                <ul class="list-unstyled d-flex flex-column gap-2 small">
+                    <li><a href="#about" class="text-white opacity-75 text-decoration-none footer-link">About Our Agency</a></li>
+                    <li><a href="#contact" class="text-white opacity-75 text-decoration-none footer-link">Consultation Queue</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr class="border-secondary border-opacity-15 my-4">
+
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 class-copyright">
+            <span class="small text-white opacity-75">&copy; 2026 Eazytech. All rights reserved.</span>
+            <span class="small text-white opacity-75 font-monospace" style="font-size: 0.75rem;">Engineered for Velocity</span>
+        </div>
+    </div>
+</footer>
+
+
+
+<div id="cookie-banner" class="fixed-bottom p-4 bg-dark text-white shadow-lg d-none" style="z-index:9999">
+    <div class="container d-md-flex align-items-center justify-content-between">
+        <div class="me-3">
+            <h5 class="fw-bold mb-1">Cookies & Privacy 🍪</h5>
+            <p class="small mb-0">
+                We use cookies to improve your experience on Eazytech. By continuing to browse, you agree to our 
+               <a href="privacy.html" class="text-primary">Privacy Policy.</a> 
+            </p>
+        </div>
+        <div class="mt-3 mt-md-0 d-flex gap-2">
+            <button id="accept-cookies" class="btn btn-primary btn-sm px-4 fw-bold">Accept All</button>
+            <button id="decline-cookies" class="btn btn-outline-light btn-sm px-4">Decline</button>
+        </div>
+    </div>
+</div>  
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
+<script src="node_modules/aos-master/dist/aos.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
