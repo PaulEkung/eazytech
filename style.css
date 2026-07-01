@@ -174,7 +174,7 @@ body{
 .bg-dark .card,
 .bg-dark .p-3,
 .bg-dark .p-4 {
-    background-color: var(--card-bg-dark) !important;
+    /* background-color: var(--card-bg-dark) !important; */
     border-color: var(--card-border-dark) !important;
 }
 
